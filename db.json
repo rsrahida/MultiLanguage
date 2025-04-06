@@ -1,0 +1,444 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": {
+        "az": "Şokoladlı Milkshake",
+        "en": "Chocolate Milkshake",
+        "ru": "Шоколадный милкшейк"
+      },
+      "category": {
+        "az": "Milkshake",
+        "en": "Milkshake",
+        "ru": "Молочный коктейль"
+      },
+      "price": 5.99,
+      "inStock": true,
+      "image": "https://i.pinimg.com/736x/af/ab/db/afabdbdacd6f79d7618b8e260919fabe.jpg",
+      "rating": 4.7,
+      "description": {
+        "az": "Yumşaq şokoladlı milkshake, ləzzətli şokolad və kremli süd qarışığından hazırlanır. İçərisindəki şokolad parçaları və üstündəki çırpılmış krem ilə sizi qışın soyuğunda da təravətləndirəcək.",
+        "en": "A smooth chocolate milkshake made with rich chocolate and creamy milk. The chocolate chunks inside and whipped cream on top make it perfect for a refreshing winter treat.",
+        "ru": "Мягкий шоколадный милкшейк, приготовленный из вкусного шоколада и кремового молока. Шоколадные кусочки внутри и взбитые сливки сверху подарят вам освежение даже в зимнюю стужу."
+      }
+    },
+    {
+      "id": 2,
+      "name": {
+        "az": "Vanilla Milkshake",
+        "en": "Vanilla Milkshake",
+        "ru": "Ванильный милкшейк"
+      },
+      "category": {
+        "az": "Milkshake",
+        "en": "Milkshake",
+        "ru": "Молочный коктейль"
+      },
+      "price": 5.49,
+      "inStock": true,
+      "image": "https://i.pinimg.com/736x/ac/ab/ae/acabaeb90c770f1ccbab98374315dc96.jpg",
+      "rating": 4.6,
+      "description": {
+        "az": "Vanilinin unikal ləzzəti ilə hazırlanmış milkshake. Təzə süd, təbii vanil ekstraktı və kremli qatıq qarışığı, bu milkshake-i mükəmməl edir.",
+        "en": "A milkshake made with the unique taste of vanilla. Fresh milk, natural vanilla extract, and a creamy yogurt mixture make this milkshake perfect.",
+        "ru": "Молочный коктейль, приготовленный с уникальным вкусом ванили. Свежее молоко, натуральный экстракт ванили и кремовая смесь йогурта делают этот молочный коктейль идеальным."
+      }
+    },
+    {
+      "id": 3,
+      "name": {
+        "az": "Çiyələkli Milkshake",
+        "en": "Strawberry Milkshake",
+        "ru": "Клубничный милкшейк"
+      },
+      "category": {
+        "az": "Milkshake",
+        "en": "Milkshake",
+        "ru": "Молочный коктейль"
+      },
+      "price": 5.79,
+      "inStock": false,
+      "image": "https://i.pinimg.com/736x/43/59/48/435948e1bc6b0a7b1f4d5c5d087fcc46.jpg",
+      "rating": 4.8,
+      "description": {
+        "az": "Təzə çiyələk ilə hazırlanmış, qatı və kremli milkshake. Çiyələyin təbii şirinliyi, süd və krem ilə mükəmməl birləşərək, yüngül və çox dadlı bir içki ortaya çıxarır.",
+        "en": "A thick and creamy milkshake made with fresh strawberries. The natural sweetness of the strawberries blends perfectly with milk and cream, creating a light and delicious drink.",
+        "ru": "Густой и кремовый молочный коктейль, приготовленный с свежими клубниками. Естественная сладость клубники идеально сочетается с молоком и сливками, создавая легкий и вкусный напиток."
+      }
+    },
+    {
+      "id": 4,
+      "name": {
+        "az": "İced Coffee Frappe",
+        "en": "Iced Coffee Frappe",
+        "ru": "Ледяной кофе Фраппе"
+      },
+      "category": {
+        "az": "Frappe",
+        "en": "Frappe",
+        "ru": "Фраппе"
+      },
+      "price": 4.99,
+      "inStock": true,
+      "image": "https://i.pinimg.com/736x/39/91/c7/3991c7c73977068585e9a2204b386957.jpg",
+      "rating": 4.5,
+      "description": {
+        "az": "Soyuq qəhvə və buzlu qarışıqları ilə hazırlanmış çox təzə bir frappe. Qəhvənin tünd dadı və buzun təzəliyi birləşərək, günün istənilən saatında sizi canlandıracaq.",
+        "en": "A very refreshing frappe made with cold coffee and iced mixtures. The bold coffee flavor and the freshness of ice come together to refresh you at any time of the day.",
+        "ru": "Очень освежающий фраппе, приготовленный с холодным кофе и ледяными смесями. Сильный вкус кофе и свежесть льда объединяются, чтобы освежить вас в любое время дня."
+      }
+    },
+    {
+      "id": 5,
+      "name": {
+        "az": "Karamelli Frappe",
+        "en": "Caramel Frappe",
+        "ru": "Карамельный фраппе"
+      },
+      "category": {
+        "az": "Frappe",
+        "en": "Frappe",
+        "ru": "Фраппе"
+      },
+      "price": 5.49,
+      "inStock": true,
+      "image": "https://i.pinimg.com/736x/e5/4d/2f/e54d2f272ee1cf6d289d89ea3ea12d15.jpg",
+      "rating": 4.7,
+      "description": {
+        "az": "Karamel şərbəti ilə hazırlanmış, buzlu və kremli bir frappe. Frappe-dəki karamelin şirin və tünd dadı qəhvə ilə mükəmməl qarışır.",
+        "en": "A cold and creamy frappe made with caramel syrup. The sweetness and rich taste of caramel blend perfectly with coffee in this frappe.",
+        "ru": "Холодный и кремовый фраппе, приготовленный с карамельным сиропом. Сладость и насыщенный вкус карамели идеально сочетаются с кофе в этом фраппе."
+      }
+    },
+    {
+      "id": 6,
+      "name": {
+        "az": "Bananlı Smoothie",
+        "en": "Banana Smoothie",
+        "ru": "Банановый смузи"
+      },
+      "category": {
+        "az": "Smoothie",
+        "en": "Smoothie",
+        "ru": "Смузи"
+      },
+      "price": 5.29,
+      "inStock": true,
+      "image": "https://i.pinimg.com/736x/4c/df/98/4cdf9818a7384d99c86e5c74bf1c734f.jpg",
+      "rating": 4.6,
+      "description": {
+        "az": "Banana və süd qarışığı ilə hazırlanmış təbii və enerji verici smoothie. Bu içki, günə başlamağınız və ya günorta fasiləsində enerji toplamağınız üçün idealdır.",
+        "en": "A natural and energizing smoothie made with banana and milk. This drink is perfect for starting your day or refreshing yourself during an afternoon break.",
+        "ru": "Естественный и энергетический смузи, приготовленный с бананом и молоком. Этот напиток идеально подходит для начала вашего дня или для освежения в обеденный перерыв."
+      }
+    },
+    {
+      "id": 7,
+      "name": {
+        "az": "Mango Smoothie",
+        "en": "Mango Smoothie",
+        "ru": "Манговый смузи"
+      },
+      "category": {
+        "az": "Smoothie",
+        "en": "Smoothie",
+        "ru": "Смузи"
+      },
+      "price": 5.79,
+      "inStock": true,
+      "image": "https://i.pinimg.com/736x/7b/b3/3f/7bb33f4149df29b815250928ccd6b549.jpg ",
+      "rating": 4.9,
+      "description": {
+        "az": "Təzə mango ilə hazırlanmış tropik smoothie. Şirin mango və təbii süd qarışığı ilə çox təravətli və dadlı bir içki əldə edilir.",
+        "en": "A tropical smoothie made with fresh mango. The sweet mango and natural milk blend to create a refreshing and delicious drink.",
+        "ru": "Тропический смузи, приготовленный с свежим манго. Сладкий манго и натуральное молоко создают освежающий и вкусный напиток."
+      }
+    },
+    {
+      "id": 8,
+      "name": {
+        "az": "Yaşıl Çay Smoothie",
+        "en": "Green Tea Smoothie",
+        "ru": "Зеленый чай смузи"
+      },
+      "category": {
+        "az": "Smoothie",
+        "en": "Smoothie",
+        "ru": "Смузи"
+      },
+      "price": 6.49,
+      "inStock": true,
+      "image": "https://i.pinimg.com/736x/05/51/ac/0551ac12f042aece62191872b89882aa.jpg",
+      "rating": 4.8,
+      "description": {
+        "az": "Yaşıl çay və müxtəlif meyvələrdən hazırlanmış smoothie. Sağlam və enerji verici bir içki, günün hər saatında sizi canlandıracaq.",
+        "en": "A smoothie made with green tea and various fruits. A healthy and energizing drink that refreshes you at any time of the day.",
+        "ru": "Смузи, приготовленный с зеленым чаем и различными фруктами. Здоровый и энергетический напиток, который освежит вас в любое время дня."
+      }
+    },
+    {
+      "id": 9,
+      "name": {
+        "az": "Fındıqlı Smoothie",
+        "en": "Hazelnut Smoothie",
+        "ru": "Лесной орех смузи"
+      },
+      "category": {
+        "az": "Smoothie",
+        "en": "Smoothie",
+        "ru": "Смузи"
+      },
+      "price": 6.99,
+      "inStock": false,
+      "image": "https://i.pinimg.com/736x/7c/1b/00/7c1b0030a5ce01b41116d44ec159a45b.jpg",
+      "rating": 4.6,
+      "description": {
+        "az": "Fındıq və süd qarışığı ilə hazırlanmış çox zəngin və dadlı smoothie. Fındığın zəngin aroması, smoothiedə gözəl bir təcrübə yaradır.",
+        "en": "A rich and delicious smoothie made with hazelnuts and milk. The rich aroma of hazelnuts creates a wonderful experience in the smoothie.",
+        "ru": "Богатый и вкусный смузи, приготовленный с лесными орехами и молоком. Богатый аромат лесных орехов создает замечательный опыт в смузи."
+      }
+    },
+    {
+      "id": 10,
+      "name": {
+        "az": "Mango Lassi",
+        "en": "Mango Lassi",
+        "ru": "Манго Ласси"
+      },
+      "category": {
+        "az": "Smoothie",
+        "en": "Smoothie",
+        "ru": "Смузи"
+      },
+      "price": 5.99,
+      "inStock": true,
+      "image": "https://i.pinimg.com/736x/9e/2e/a7/9e2ea7b8e012755d9fe28916d22ca108.jpg",
+      "rating": 4.7,
+      "description": {
+        "az": "Yüngül və təravətli mango lassisi. Təzə mango və qatıq qarışığı, bu içkini çox dadlı edir.",
+        "en": "A light and refreshing mango lassi. Fresh mango and yogurt blend to create a delicious drink.",
+        "ru": "Легкий и освежающий манго-ласси. Свежий манго и йогурт создают вкусный напиток."
+      }
+    },
+    {
+      "id": 11,
+      "name": {
+        "az": "Nar Şirəsi",
+        "en": "Pomegranate Juice",
+        "ru": "Сок граната"
+      },
+      "category": {
+        "az": "Juice",
+        "en": "Juice",
+        "ru": "Сок"
+      },
+      "price": 3.99,
+      "inStock": true,
+      "image": "https://i.pinimg.com/736x/cf/1a/cc/cf1acc30e62ffe58d8e9117d71a67750.jpg",
+      "rating": 4.8,
+      "description": {
+        "az": "Təzə nar ilə hazırlanmış, çox şirin və təravətli bir şirə. Təbii olaraq antioksidanlarla zəngindir.",
+        "en": "A sweet and refreshing juice made with fresh pomegranate. Naturally rich in antioxidants.",
+        "ru": "Сладкий и освежающий сок, приготовленный из свежих гранатов. Естественно богат антиоксидантами."
+      }
+    },
+    {
+      "id": 12,
+      "name": {
+        "az": "Portağal Şirəsi",
+        "en": "Orange Juice",
+        "ru": "Апельсиновый сок"
+      },
+      "category": {
+        "az": "Juice",
+        "en": "Juice",
+        "ru": "Сок"
+      },
+      "price": 3.49,
+      "inStock": true,
+      "image": "https://i.pinimg.com/736x/7d/a3/c6/7da3c6a160b52095df625d9717643cfc.jpg",
+      "rating": 4.7,
+      "description": {
+        "az": "Təzə portağaldan hazırlanmış, vitaminlərlə zəngin, təravətli və şirin bir şirə.",
+        "en": "A refreshing and sweet juice made with fresh oranges, rich in vitamins.",
+        "ru": "Освежающий и сладкий сок, приготовленный из свежих апельсинов, богат витаминами."
+      }
+    },
+    {
+      "id": 13,
+      "name": {
+        "az": "Kivili Şirə",
+        "en": "Kiwi Juice",
+        "ru": "Сок киви"
+      },
+      "category": {
+        "az": "Juice",
+        "en": "Juice",
+        "ru": "Сок"
+      },
+      "price": 4.29,
+      "inStock": true,
+      "image": "https://i.pinimg.com/736x/8e/89/aa/8e89aab8224ac1917588f4e9872fc7a6.jpg",
+      "rating": 4.9,
+      "description": {
+        "az": "Kivinin təravətini və təbii şirinliyini saxlayan təzə şirə. Bu içki həmçinin C vitamini ilə zəngindir.",
+        "en": "A juice made with fresh kiwi that keeps its refreshing and natural sweetness. Also rich in Vitamin C.",
+        "ru": "Сок, приготовленный из свежего киви, сохраняет свою освежающую и естественную сладость. Также богат витамином С."
+      }
+    },
+    {
+      "id": 14,
+      "name": {
+        "az": "Alma Şirəsi",
+        "en": "Apple Juice",
+        "ru": "Яблочный сок"
+      },
+      "category": {
+        "az": "Juice",
+        "en": "Juice",
+        "ru": "Сок"
+      },
+      "price": 3.79,
+      "inStock": true,
+      "image": "https://i.pinimg.com/736x/6c/96/57/6c96576bd8037d11c17aff26508323db.jpg",
+      "rating": 4.6,
+      "description": {
+        "az": "Təzə almadən hazırlanmış, çox şirin və təravətli şirə.",
+        "en": "A very sweet and refreshing juice made from fresh apples.",
+        "ru": "Очень сладкий и освежающий сок, приготовленный из свежих яблок."
+      }
+    },
+    {
+      "id": 15,
+      "name": {
+        "az": "Kivi və Ananas Smoothie",
+        "en": "Kiwi and Pineapple Smoothie",
+        "ru": "Киви и ананас смузи"
+      },
+      "category": {
+        "az": "Smoothie",
+        "en": "Smoothie",
+        "ru": "Смузи"
+      },
+      "price": 6.59,
+      "inStock": true,
+      "image": "https://i.pinimg.com/736x/e8/5b/5a/e85b5aedd86f670309829f9ac80f67e6.jpg",
+      "rating": 4.7,
+      "description": {
+        "az": "Kivi və ananasın tropik dadlarını birləşdirən çox təravətli smoothie.",
+        "en": "A very refreshing smoothie combining the tropical flavors of kiwi and pineapple.",
+        "ru": "Очень освежающий смузи, сочетающий тропические вкусы киви и ананаса."
+      }
+    },
+    {
+      "id": 16,
+      "name": {
+        "az": "Fındıq yağı Smoothie",
+        "en": "Nut Butter Smoothie",
+        "ru": "Смузи с ореховым маслом"
+      },
+      "category": {
+        "az": "Smoothie",
+        "en": "Smoothie",
+        "ru": "Смузи"
+      },
+      "price": 7.29,
+      "inStock": false,
+      "image": "https://i.pinimg.com/736x/7f/77/4d/7f774d3bb287c46df8bc01c015e1dc19.jpg",
+      "rating": 4.5,
+      "description": {
+        "az": "Fındıq yağı və süd qarışığı ilə hazırlanan kremli və zəngin smoothie.",
+        "en": "A creamy and rich smoothie made with nut butter and milk.",
+        "ru": "Кремовый и насыщенный смузи, приготовленный с ореховым маслом и молоком."
+      }
+    },
+    {
+      "id": 17,
+      "name": {
+        "az": "Şirin Çay",
+        "en": "Sweet Tea",
+        "ru": "Сладкий чай"
+      },
+      "category": {
+        "az": "Tea",
+        "en": "Tea",
+        "ru": "Чай"
+      },
+      "price": 2.99,
+      "inStock": true,
+      "image": "https://i.pinimg.com/736x/f8/08/62/f808622d4f52cb76605c62e4b1bf5428.jpg",
+      "rating": 4.6,
+      "description": {
+        "az": "Qısa müddətdə hazırlanan təravətli və şirin çay.",
+        "en": "A refreshing and sweet tea prepared in a short time.",
+        "ru": "Освежающий и сладкий чай, приготовленный за короткое время."
+      }
+    },
+    {
+      "id": 18,
+      "name": {
+        "az": "Yaşıl Çay",
+        "en": "Green Tea",
+        "ru": "Зеленый чай"
+      },
+      "category": {
+        "az": "Tea",
+        "en": "Tea",
+        "ru": "Чай"
+      },
+      "price": 3.19,
+      "inStock": true,
+      "image": "https://i.pinimg.com/736x/b8/85/73/b88573ddfb1be222366b2ed67da45fe9.jpg",
+      "rating": 4.9,
+      "description": {
+        "az": "Təbii yaşıl çay, sağlamlıq üçün mükəmməl içkidir.",
+        "en": "Natural green tea, perfect for health.",
+        "ru": "Натуральный зеленый чай, идеально подходит для здоровья."
+      }
+    },
+    {
+      "id": 19,
+      "name": {
+        "az": "Naneli Çay",
+        "en": "Mint Tea",
+        "ru": "Мятный чай"
+      },
+      "category": {
+        "az": "Tea",
+        "en": "Tea",
+        "ru": "Чай"
+      },
+      "price": 3.29,
+      "inStock": true,
+      "image": "https://i.pinimg.com/736x/3f/56/39/3f5639caaa3c4633e75aa015d2b883f9.jpg",
+      "rating": 4.7,
+      "description": {
+        "az": "Təzə nanə ilə hazırlanmış, nəfəs açan və rahatladıcı çay.",
+        "en": "A refreshing and relaxing tea made with fresh mint.",
+        "ru": "Освежающий и расслабляющий чай, приготовленный с свежей мятой."
+      }
+    },
+    {
+      "id": 20,
+      "name": {
+        "az": "Qara Çay",
+        "en": "Black Tea",
+        "ru": "Черный чай"
+      },
+      "category": {
+        "az": "Tea",
+        "en": "Tea",
+        "ru": "Чай"
+      },
+      "price": 2.89,
+      "inStock": true,
+      "image": "https://i.pinimg.com/736x/15/65/a5/1565a5017a9f2d457ec35eb8cbee3269.jpg",
+      "rating": 4.8,
+      "description": {
+        "az": "Sıx və tünd qara çay, həmçinin gündəlik təravət üçün mükəmməl içkidir.",
+        "en": "A strong and bold black tea, perfect for daily refreshment.",
+        "ru": "Крепкий и насыщенный черный чай, идеально подходит для ежедневного освежения."
+      }
+    }
+  ]
+}
