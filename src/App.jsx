@@ -1,5 +1,6 @@
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import i18n from "./i18n/i18next";
 import HomePage from "./pages/HomePage";
 import AboutPage from "./pages/AboutPage";
 import GalleryPage from "./pages/GalleryPage";

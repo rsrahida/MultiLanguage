@@ -1,0 +1,24 @@
+{
+  "homePage": {
+    "navbar": {
+      "home": "Home",
+      "about": "About",
+      "gallery": "Gallery",
+      "contact": "Contact Us",
+      "basket": "Basket"
+    },
+    "home": {
+      "title": "Health Smoothie",
+      "text": "If you want to start your day with a healthy choice, you’re in the right place! Our smoothies, made with natural fruits, superfoods, and a touch of love, will boost your energy and provide your body with the nutrients it needs. Tasty, nutritious, and natural – the most delicious choice for your health!",
+      "button": "Buy Now"
+    },
+    "homeDrink": {
+      "titleDrink": "Drink for Health",
+      "strongText": "Energy-boosting and vitamin-rich natural drinks!",
+      "aboutDrink": "Our energy-boosting and vitamin-rich natural drinks are made with fresh, natural fruits. Each order is crafted to fill your body with energy and support your health. Our smoothies are packed with vitamins, minerals, and antioxidants. Every drink is made with natural sweetness and healthy ingredients, making them the perfect choice for a healthy lifestyle. Refresh your day with the power of fruits!"
+    },
+    "homeData": {
+      "titleData": "Our Beverage"
+    }
+  }
+}

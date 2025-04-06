@@ -1,0 +1,24 @@
+{
+  "homePage": {
+    "navbar": {
+      "home": "Ana Səhifə",
+      "about": "Haqqımızda",
+      "gallery": "Qalereya",
+      "contact": "Əlaqə",
+      "basket": "Səbət"
+    },
+    "home": {
+      "title": "Sağlam Smoothie",
+      "text": "Günə sağlam bir seçimlə başlamaq istəyirsinizsə, doğru ünvandasınız! Təbii meyvələr, superfood-lar və bir az sevgi ilə hazırlanan smoothie-lərimiz enerjinizi artıracaq və bədəninizin ehtiyacı olan qidaları təmin edəcək. Dadlı, faydalı və təbii – sağlamlığınız üçün ən ləzzətli seçim!",
+      "button": "İndi Al"
+    },
+    "homeDrink": {
+      "titleDrink": "Sağlamlıq üçün içki",
+      "strongText": "Enerji artırıcı və vitaminlə zəngin təbii içkilər!",
+      "aboutDrink": "Enerji artırıcı və vitaminlə zəngin təbii içkilər! Hər bir siparişimiz, təzə və təbii meyvələrdən hazırlanan, bədəninizi enerji ilə dolduracaq və sağlamlığınızı dəstəkləyəcək içkilərdən ibarətdir. Bizim smoothie-lərimiz, vitaminlər, minerallar və antioksidantlarla zəngindir. Hər içki, təbii şirinlik və faydalı inqrediyentlərlə hazırlanır, sağlam həyat tərzini dəstəkləyən mükəmməl bir seçimdir. Meyvələrin gücü ilə hər gününüzü təzələyin! Təbii meyvələrdən hazırladığımız içkilər, bədəninizin ehtiyac duyduğu qidaları təmin edərək enerji verir və sağlamlığınızı dəstəkləyir. Hər siparişiniz təzə və təbii olaraq hazırlanır – sağlamlığınız üçün ən yaxşı seçim!"
+    },
+    "homeData": {
+      "titleData": "Bizim İçki"
+    }
+  }
+}
