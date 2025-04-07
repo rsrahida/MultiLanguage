@@ -1,0 +1,90 @@
+.HomeBeverage {
+  width: 100%;
+  height: 90vh;
+  background-color: #fffbe3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.HomeBeverageContainer {
+  width: 80%;
+  height: 75vh;
+  border-radius: 30px;
+  background-color: #ecebf1;
+  overflow: hidden;
+  position: relative;
+}
+
+.image {
+  width: 500px;
+  height: 520px;
+  float: right;
+  mask-image: linear-gradient(
+    to right,
+    to bottom,
+    rgba(0, 0, 0, 0.886),
+    rgba(0, 0, 0, 0.895),
+    rgba(0, 0, 0, 0.81)
+  );
+  -webkit-mask-image: linear-gradient(
+    to bottom,
+    rgb(0, 0, 0),
+    rgb(0, 0, 0),
+    rgba(0, 0, 0, 0.748)
+  );
+  -webkit-mask-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0.044),
+    rgb(0, 0, 0),
+    rgba(0, 0, 0, 0.748)
+  );
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.textWrapper {
+  flex: 1;
+  padding: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  animation: fadeInUp 1s ease-out;
+}
+
+.title {
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #3e7c4b;
+  margin-bottom: 1.2rem;
+  letter-spacing: 1px;
+  position: relative;
+  text-align: center;
+}
+
+.title::after {
+  content: "";
+  position: absolute;
+  bottom: -8px;
+  left: 90px;
+  width: 460px;
+  height: 4px;
+  background: linear-gradient(90deg, #8bc34a, #4caf50);
+  border-radius: 10px;
+}
+.leafe {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.description {
+  font-size: 1.15rem;
+  color: #005403;
+  line-height: 1.7;
+  margin-bottom: 1.2rem;
+  margin-top: 15px;
+  transition: all 0.3s ease-in-out;
+  background: rgba(255, 255, 255, 0.6);
+  padding: 0.5rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}

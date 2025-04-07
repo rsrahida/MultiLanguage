@@ -30,6 +30,12 @@
       "lemonText": "Lemon adds a zesty kick and a burst of vitamin C to any infusion.",
       "freshWater": "Fresh Water",
       "freshWaterText": "Fresh water is the pure foundation that brings all flavors together."
+    },
+    "homeBeverage": {
+      "title": "Upcoming Our Beverage",
+      "paragraphOne": "Our upcoming beverages are made with fresh fruits, herbs, and natural ingredients to support a healthy lifestyle. Each drink is packed with nutrients and designed to refresh and energize you.",
+      "paragraphTwo": "We’re introducing unique flavors with no added sugar or artificial additives. Perfect for any time of day — stay tuned for the launch of your new favorite healthy drink!",
+      "leafDecor": "🍃🍃🍃🍃🍃"
     }
   }
 }

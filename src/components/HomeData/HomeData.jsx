@@ -58,4 +58,4 @@ const HomeData = () => {
   );
 };
 
-export default HomeData;
+export default HomeData;``
