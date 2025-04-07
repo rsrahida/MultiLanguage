@@ -4,6 +4,7 @@ import HomeDrink from "../components/HomeDrink/HomeDrink";
 import HomeData from "../components/HomeData/HomeData";
 import HomeAbout from "../components/HomeAbout/HomeAbout";
 import HomeBeverage from "../components/HomeBeverages/HomeBeverage";
+import HomeSlider from "../components/HomeSlider/HomeSlider";
 
 const HomePage = () => {
   return (
@@ -13,6 +14,7 @@ const HomePage = () => {
       <HomeData />
       <HomeAbout />
       <HomeBeverage />
+      <HomeSlider />
     </div>
   );
 };
