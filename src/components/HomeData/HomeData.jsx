@@ -5,7 +5,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 const HomeData = () => {
-  const { i18n,t } = useTranslation();
+  const { i18n, t } = useTranslation();
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
@@ -29,9 +29,7 @@ const HomeData = () => {
 
   return (
     <div className={styles.homeData}>
-      <p className={styles.title}>
-        <i>{t("homePage.homeData.titleData")}</i>
-      </p>
+      <p className={styles.title}>{t("homePage.homeData.titleData")}</p>
       <div className={styles.productContainer}>
         {products.length > 0 ? (
           products.map((product) => (

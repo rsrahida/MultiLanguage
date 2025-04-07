@@ -19,6 +19,17 @@
     },
     "homeData": {
       "titleData": "Bizim İçki"
+    },
+    "homeAbout": {
+      "detoxSmoothieRecipe": "Detoks Smoothie Resepti",
+      "avocado": "Avokado",
+      "avocadoText": "Avokado sağlam yağlarla doludur və hər hansı bir yeməyə əlavə etmək üçün əla seçimdir.",
+      "apple": "Alma",
+      "appleText": "Gündə bir alma həmçinin həkimi uzaq tutar, həm də içkini təzə və şirin edir.",
+      "lemon": "Limon",
+      "lemonText": "Limon hər hansı bir içkiyə təravətli bir dad və C vitamini əlavə edir.",
+      "freshWater": "Təmiz Su",
+      "freshWaterText": "Təmiz su bütün dadları birləşdirən təmiz təməl olan bir içkidir."
     }
   }
 }

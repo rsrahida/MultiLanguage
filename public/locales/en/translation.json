@@ -19,6 +19,17 @@
     },
     "homeData": {
       "titleData": "Our Beverage"
+    },
+    "homeAbout": {
+      "detoxSmoothieRecipe": "Detox Smoothie Recipe",
+      "avocado": "Avocado",
+      "avocadoText": "Avocado is packed with healthy fats and is a great addition to any meal.",
+      "apple": "Apple",
+      "appleText": "An apple a day not only keeps the doctor away, but adds a crisp sweetness to your drink.",
+      "lemon": "Lemon",
+      "lemonText": "Lemon adds a zesty kick and a burst of vitamin C to any infusion.",
+      "freshWater": "Fresh Water",
+      "freshWaterText": "Fresh water is the pure foundation that brings all flavors together."
     }
   }
 }
