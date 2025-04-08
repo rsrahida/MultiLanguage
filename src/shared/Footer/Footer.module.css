@@ -1,0 +1,98 @@
+.footer {
+  width: 100%;
+  height: 350px;
+  background-image: url("../../assets/images/fotter.jpg");
+  background-size: contain;
+  background-position: center;
+  padding: 40px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  position: relative;
+}
+
+.footer::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.925);
+  z-index: 1;
+}
+
+.footerContent {
+  width: 100%;
+  max-width: 1200px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  position: relative;
+  z-index: 2;
+}
+
+.title {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.contact .text {
+  margin: 5px 0;
+}
+
+.usefulLinks .list {
+  list-style: none;
+  padding: 0;
+}
+
+.usefulLinks .listItem {
+  margin: 5px 0;
+  font-size: 1rem;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.usefulLinks .listItem:hover {
+  text-decoration: underline;
+}
+
+.followUs .socialLinks {
+  list-style: none;
+  padding: 0;
+}
+
+.followUs .socialLink {
+  margin: 5px 0;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.followUs .socialLink:hover {
+  text-decoration: underline;
+}
+
+.subscribe .subscribeInput {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 10px;
+}
+
+.subscribe .subscribeBtn {
+  padding: 10px 20px;
+  background-color: #81b743;
+  color: rgb(27, 86, 0);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.subscribe .subscribeBtn:hover {
+  background-color: rgb(27, 86, 0);
+  color: #81b743;
+}

@@ -11,7 +11,7 @@ const HomeDrink = () => {
 
   useEffect(() => {
     AOS.init({
-      duration: 2000,
+      duration: 1200,
       once: true,
     });
   }, []);

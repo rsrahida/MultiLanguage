@@ -36,6 +36,27 @@
       "paragraphOne": "Tezliklə təqdim olunacaq içkilərimiz təzə meyvələr, otlar və təbii inqrediyentlərlə hazırlanır və sağlam həyat tərzini dəstəkləyir. Hər içki qida maddələri ilə zəngindir və sizi təravətləndirəcək, enerjinizi artıracaq.",
       "paragraphTwo": "Biz əlavə şəkər və süni qatqılar olmadan unikal dadlar təqdim edirik. Günün istənilən vaxtı üçün mükəmməldir — yeni sevimli sağlam içkinizin təqdimatı üçün bizi izləyin!",
       "leafDecor": "🍃🍃🍃🍃🍃"
+    },
+    "footer": {
+      "contactUs": "Bizimlə Əlaqə",
+      "addressNY": "6-cı Beşinci prospekt 5501, Broadway, Nyu York",
+      "addressLondon": "Morris küçəsi, London 1234",
+      "email": "E-poçtunuz @ gmail.com",
+      "phone": "(123) 4567 89000",
+      "usefulLinks": "Faydalı Keçidlər",
+      "home": "Ana Səhifə",
+      "about": "Haqqımızda",
+      "gallery": "Qalereya",
+      "contact": "Əlaqə",
+      "privacyPolicy": "Məxfilik Siyasəti",
+      "followUs": "Bizi İzləyin",
+      "facebook": "Facebook",
+      "twitter": "Twitter",
+      "instagram": "Instagram",
+      "dribbble": "Dribbble",
+      "subscribe": "Abunə olun",
+      "placeholderEmail": "E-mail adresiniz",
+      "subscribeBtn": "İndi Abunə Ol"
     }
   }
 }
