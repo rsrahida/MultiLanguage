@@ -68,5 +68,27 @@
     "emptyMessage": "Your basket is currently empty.",
     "remove": "Remove",
     "totalPrice": "Total Price"
+  },
+  "aboutPage": {
+    "title": "About Us",
+    "subtitle": "We bring freshness to your life with natural fruit juices!",
+    "mission": {
+      "title": "Our Mission",
+      "description": "Our company's mission is to offer everyone natural, healthy, and delicious fruit juices, supporting our customers' healthy and energetic lifestyle."
+    },
+    "vision": {
+      "title": "Our Vision",
+      "description": "Our vision is to popularize natural and healthy drinks globally and provide simple, natural products to every person."
+    },
+    "values": {
+      "title": "Our Values",
+      "health": "Health: Everything that comes from nature is the best.",
+      "natural": "Natural: We only use natural ingredients in our products.",
+      "customerSatisfaction": "Customer Satisfaction: Our customers' satisfaction is our top priority."
+    },
+    "contact": {
+      "title": "Contact Us",
+      "description": "You can contact us for more information or inquiries."
+    }
   }
 }

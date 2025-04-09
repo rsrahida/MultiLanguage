@@ -1,58 +1,52 @@
 import React from "react";
 import styles from "./about.module.css";
 import { FaLeaf, FaHandHoldingHeart } from "react-icons/fa";
+import { useTranslation } from "react-i18next";
 
 const About = () => {
+  const { t } = useTranslation();
+
   return (
     <div className={styles.aboutPage}>
       <div className={styles.header}>
-        <h1 className={styles.title}>Biz Kimik?</h1>
-        <p className={styles.subtitle}>
-          Təbii meyvə şirələri ilə həyatınıza təzəlik qatırıq!
-        </p>
+        <h1 className={styles.title}>{t("aboutPage.title")}</h1>
+        <p className={styles.subtitle}>{t("aboutPage.subtitle")}</p>
       </div>
 
       <div className={styles.section}>
-        <h2 className={styles.sectionTitle}>Missiyamız</h2>
+        <h2 className={styles.sectionTitle}>{t("aboutPage.mission.title")}</h2>
         <p className={styles.sectionDescription}>
-          Şirkətimizin missiyası, hər kəsə təbii, sağlam və dadlı meyvə şirələri
-          təqdim edərək, müştərilərimizin sağlamlıq və enerji dolu həyat tərzini
-          dəstəkləməkdir.
+          {t("aboutPage.mission.description")}
         </p>
         <FaLeaf className={styles.icon} />
       </div>
 
       <div className={styles.section}>
-        <h2 className={styles.sectionTitle}>Vizyonumuz</h2>
+        <h2 className={styles.sectionTitle}>{t("aboutPage.vision.title")}</h2>
         <p className={styles.sectionDescription}>
-          Vizyonumuz, dünya çapında təbii və sağlam içkiləri populyarlaşdırmaq
-          və hər bir insana sadə, təbii məhsullar təqdim etməkdir.
+          {t("aboutPage.vision.description")}
         </p>
       </div>
 
       <div className={styles.section}>
-        <h2 className={styles.sectionTitle}>Dəyərlərimiz</h2>
+        <h2 className={styles.sectionTitle}>{t("aboutPage.values.title")}</h2>
         <ul className={styles.valuesList}>
           <li>
-            <FaHandHoldingHeart /> Sağlamlıq: Təbiətdən gələn hər şey ən
-            yaxşısıdır.
+            <FaHandHoldingHeart /> {t("aboutPage.values.health")}
           </li>
           <li>
-            <FaLeaf /> Təbii: Məhsullarımızda yalnız təbii maddələr istifadə
-            olunur.
+            <FaLeaf /> {t("aboutPage.values.natural")}
           </li>
           <li>
-            <FaHandHoldingHeart /> Müştəri Məmnuniyyəti: Müştərilərimizin
-            məmnuniyyəti bizim ən böyük prioritetimizdir.
+            <FaHandHoldingHeart /> {t("aboutPage.values.customerSatisfaction")}
           </li>
         </ul>
       </div>
 
       <div className={styles.contactSection}>
-        <h2 className={styles.contactTitle}>Bizimlə Əlaqə</h2>
+        <h2 className={styles.contactTitle}>{t("aboutPage.contact.title")}</h2>
         <p className={styles.contactDescription}>
-          Daha ətraflı məlumat və ya suallar üçün bizimlə əlaqə saxlaya
-          bilərsiniz.
+          {t("aboutPage.contact.description")}
         </p>
       </div>
     </div>

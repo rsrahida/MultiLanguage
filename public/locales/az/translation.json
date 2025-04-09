@@ -68,5 +68,27 @@
     "emptyMessage": "Səbətiniz hazırda boşdur.",
     "remove": "Sil",
     "totalPrice": "Ümumi Qiymət"
+  },
+  "aboutPage": {
+    "title": "Biz Kimik?",
+    "subtitle": "Təbii meyvə şirələri ilə həyatınıza təzəlik qatırıq!",
+    "mission": {
+      "title": "Missiyamız",
+      "description": "Şirkətimizin missiyası, hər kəsə təbii, sağlam və dadlı meyvə şirələri təqdim edərək, müştərilərimizin sağlamlıq və enerji dolu həyat tərzini dəstəkləməkdir."
+    },
+    "vision": {
+      "title": "Vizyonumuz",
+      "description": "Vizyonumuz, dünya çapında təbii və sağlam içkiləri populyarlaşdırmaq və hər bir insana sadə, təbii məhsullar təqdim etməkdir."
+    },
+    "values": {
+      "title": "Dəyərlərimiz",
+      "health": "Sağlamlıq: Təbiətdən gələn hər şey ən yaxşısıdır.",
+      "natural": "Təbii: Məhsullarımızda yalnız təbii maddələr istifadə olunur.",
+      "customerSatisfaction": "Müştəri Məmnuniyyəti: Müştərilərimizin məmnuniyyəti bizim ən böyük prioritetimizdir."
+    },
+    "contact": {
+      "title": "Bizimlə Əlaqə",
+      "description": "Daha ətraflı məlumat və ya suallar üçün bizimlə əlaqə saxlaya bilərsiniz."
+    }
   }
 }
