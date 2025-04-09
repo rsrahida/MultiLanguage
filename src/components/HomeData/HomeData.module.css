@@ -65,3 +65,29 @@
   color: #4caf50;
   transform: translateY(-5px);
 }
+
+.addToBasketButton {
+  background: linear-gradient(135deg, #ff7e5f, #feb47b);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  margin-top: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.addToBasketButton:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+}
+
+.addToBasketButton:active {
+  transform: scale(0.96);
+  background: linear-gradient(135deg, #006b09, #ffc084);
+}

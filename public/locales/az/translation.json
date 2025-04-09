@@ -18,7 +18,11 @@
       "aboutDrink": "Enerji artırıcı və vitaminlə zəngin təbii içkilər! Hər bir siparişimiz, təzə və təbii meyvələrdən hazırlanan, bədəninizi enerji ilə dolduracaq və sağlamlığınızı dəstəkləyəcək içkilərdən ibarətdir. Bizim smoothie-lərimiz, vitaminlər, minerallar və antioksidantlarla zəngindir. Hər içki, təbii şirinlik və faydalı inqrediyentlərlə hazırlanır, sağlam həyat tərzini dəstəkləyən mükəmməl bir seçimdir. Meyvələrin gücü ilə hər gününüzü təzələyin! Təbii meyvələrdən hazırladığımız içkilər, bədəninizin ehtiyac duyduğu qidaları təmin edərək enerji verir və sağlamlığınızı dəstəkləyir. Hər siparişiniz təzə və təbii olaraq hazırlanır – sağlamlığınız üçün ən yaxşı seçim!"
     },
     "homeData": {
-      "titleData": "Bizim İçki"
+      "titleData": "Bizim İçki",
+      "addToBasket": "Səbətə əlavə edin",
+      "price": "Qiymət",
+      "defaultName": "Adı olmayan məhsul",
+      "defaultDescription": "Təsvir mövcud deyil."
     },
     "homeAbout": {
       "detoxSmoothieRecipe": "Detoks Smoothie Resepti",
@@ -58,5 +62,11 @@
       "placeholderEmail": "E-mail adresiniz",
       "subscribeBtn": "İndi Abunə Ol"
     }
+  },
+  "basket": {
+    "title": "Səbətiniz",
+    "emptyMessage": "Səbətiniz hazırda boşdur.",
+    "remove": "Sil",
+    "totalPrice": "Ümumi Qiymət"
   }
 }

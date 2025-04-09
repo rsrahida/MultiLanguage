@@ -1,0 +1,214 @@
+.basketPage {
+  width: 100%;
+  min-height: 90vh;
+  padding: 15px;
+  background: #fffbe3;
+  color: #000000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pageTitle {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #111;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.emptyMessage {
+  font-size: 1.5rem;
+  color: #999;
+  text-align: center;
+  font-weight: 500;
+}
+
+.basketItems {
+  width: 100%;
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.basketItem {
+  background-color: #fff;
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 10px 12px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid #e0e0e0;
+  background-color: #fffde6;
+}
+
+.basketItem:hover {
+  box-shadow: 0 20px 25px rgba(0, 0, 0, 0.486);
+}
+
+.productImage {
+  width: 130px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-right: 20px;
+}
+
+.productDetails {
+  flex: 1;
+}
+
+.productName {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.productPrice {
+  font-size: 1.2rem;
+  color: #c51404;
+  font-weight: 500;
+}
+
+.productQuantity {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.quantityButton {
+  background-color: #007404;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.quantityButton:hover {
+  background-color: #388e3c;
+  transform: scale(1.1);
+}
+
+.quantity {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.removeButton {
+  background-color: #900402;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  margin-left: 7px;
+}
+
+.removeButton:hover {
+  background-color: #c62828;
+  transform: scale(1.1);
+}
+
+.totalPrice {
+  margin-top: 30px;
+  padding: 20px;
+  width: 100%;
+  max-width: 800px;
+  background-color: #fff;
+  border-radius: 16px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #000000;
+}
+
+.totalAmount {
+  font-size: 1.8rem;
+  color: #6d0000;
+  font-weight: 700;
+}
+
+.checkoutButton {
+  background-color: #2196f3;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 8px;
+  border: none;
+  font-weight: 600;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.checkoutButton:hover {
+  background-color: #1976d2;
+  transform: scale(1.05);
+}
+
+.emptyBasket {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  animation: fadeInUp 1s ease-out;
+}
+
+.emptyIcon {
+  font-size: 5rem;
+  color: #e53935;
+  margin-bottom: 20px;
+  animation: bounce 2s infinite;
+}
+
+.emptyMessage {
+  font-size: 2rem;
+  color: #888;
+  text-align: center;
+  font-weight: 600;
+  opacity: 0;
+  animation: fadeInText 1.5s ease-in 0.5s forwards;
+  margin-top: 20px;
+}
+
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+}
+
+@keyframes fadeInText {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

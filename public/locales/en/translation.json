@@ -18,7 +18,11 @@
       "aboutDrink": "Our energy-boosting and vitamin-rich natural drinks are made with fresh, natural fruits. Each order is crafted to fill your body with energy and support your health. Our smoothies are packed with vitamins, minerals, and antioxidants. Every drink is made with natural sweetness and healthy ingredients, making them the perfect choice for a healthy lifestyle. Refresh your day with the power of fruits!"
     },
     "homeData": {
-      "titleData": "Our Beverage"
+      "titleData": "Our Beverage",
+      "addToBasket": "Add To Basket",
+      "price": "Price",
+      "defaultName": "Unnamed Product",
+      "defaultDescription": "No description available."
     },
     "homeAbout": {
       "detoxSmoothieRecipe": "Detox Smoothie Recipe",
@@ -58,5 +62,11 @@
       "placeholderEmail": "Your Email",
       "subscribeBtn": "Subscribe Now"
     }
+  },
+  "basket": {
+    "title": "Your Basket",
+    "emptyMessage": "Your basket is currently empty.",
+    "remove": "Remove",
+    "totalPrice": "Total Price"
   }
 }
