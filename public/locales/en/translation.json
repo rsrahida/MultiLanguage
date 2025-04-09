@@ -90,5 +90,13 @@
       "title": "Contact Us",
       "description": "You can contact us for more information or inquiries."
     }
+  },
+  "galleryPage": {
+    "title": "Our Gallery",
+    "subtitle": "Explore the beauty of our natural drinks and ingredients.",
+    "all": "All",
+    "fruits": "Fruits",
+    "smoothies": "Smoothies",
+    "vegetables": "Vegetables"
   }
 }

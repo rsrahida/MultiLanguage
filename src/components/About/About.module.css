@@ -1,3 +1,8 @@
+.about {
+  width: 100%;
+  height: auto;
+  background-color: #fffbe3;
+}
 .aboutPage {
   padding: 40px;
   background: linear-gradient(135deg, #f0e5d8, #d8e1e8);
@@ -93,7 +98,7 @@
 }
 
 .contactSection {
-  background: linear-gradient(45deg, #ffb6c1, #ff6347);
+  background: linear-gradient(45deg, #007408, #144301);
   padding: 40px;
   color: white;
   text-align: center;

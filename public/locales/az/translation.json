@@ -90,5 +90,13 @@
       "title": "Bizimlə Əlaqə",
       "description": "Daha ətraflı məlumat və ya suallar üçün bizimlə əlaqə saxlaya bilərsiniz."
     }
+  },
+  "galleryPage": {
+    "title": "Galereya",
+    "subtitle": "Təbii içkilərimizin və tərkib hissələrimizin gözəlliyini kəşf edin.",
+    "all": "Hamısı",
+    "fruits": "Meyvələr",
+    "smoothies": "Smuzi",
+    "vegetables": "Tərəvəzlər"
   }
 }

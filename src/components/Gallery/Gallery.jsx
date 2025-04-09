@@ -1,8 +1,10 @@
 import React, { useState } from "react";
 import styles from "./Gallery.module.css";
+import { useTranslation } from "react-i18next";
 
 const Gallery = () => {
   const [filter, setFilter] = useState("all");
+  const { t } = useTranslation();
 
   const galleryImages = [
     {
@@ -73,9 +75,9 @@ const Gallery = () => {
 
   return (
     <div className={styles.galleryContainer}>
-      <h1 className={styles.galleryTitle}>Our Gallery</h1>
+      <h1 className={styles.galleryTitle}>{t("galleryPage.title")}</h1>
       <p className={styles.gallerySubtitle}>
-        Explore the beauty of our natural drinks and ingredients.
+        {t("galleryPage.subtitle")}
       </p>
 
       <div className={styles.filterContainer}>
@@ -83,25 +85,25 @@ const Gallery = () => {
           onClick={() => setFilter("all")}
           className={styles.filterButton}
         >
-          All
+          {t("galleryPage.all")}
         </button>
         <button
           onClick={() => setFilter("fruits")}
           className={styles.filterButton}
         >
-          Fruits
+          {t("galleryPage.fruits")}
         </button>
         <button
           onClick={() => setFilter("smoothies")}
           className={styles.filterButton}
         >
-          Smoothies
+          {t("galleryPage.smoothies")}
         </button>
         <button
           onClick={() => setFilter("vegetables")}
           className={styles.filterButton}
         >
-          Vegetables
+          {t("galleryPage.vegetables")}
         </button>
       </div>
 
