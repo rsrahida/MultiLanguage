@@ -48,14 +48,6 @@ const Navbar = () => {
         >
           {i18n.t("homePage.navbar.gallery")}
         </Link>
-        <Link
-          to="/contact"
-          className={`${styles.link} ${
-            location.pathname === "/contact" ? styles.active : ""
-          }`}
-        >
-          {i18n.t("homePage.navbar.contact")}
-        </Link>
       </div>
       <div className={styles.navbarEnd}>
         <Link to="/basket" className={styles.basket}>

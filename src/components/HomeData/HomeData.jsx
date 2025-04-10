@@ -15,6 +15,7 @@ const HomeData = () => {
     const fetchData = async () => {
       try {
         const response = await fetch("http://localhost:3001/products");
+        //!json-server --watch db.json --port 3001
         const data = await response.json();
         setProducts(data);
       } catch (error) {
@@ -83,7 +84,7 @@ const HomeData = () => {
                     handleAddToBasket(product);
                   }}
                 >
-                 {t("homePage.homeData.addToBasket")}
+                  {t("homePage.homeData.addToBasket")}
                 </button>
               </div>
             </div>
