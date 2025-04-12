@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./about.module.css";
+import styles from "./About.module.css";
 import { FaLeaf, FaHandHoldingHeart } from "react-icons/fa";
 import { useTranslation } from "react-i18next";
 
